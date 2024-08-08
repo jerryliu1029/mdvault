@@ -12,9 +12,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "null",
+      provider: "plausible",
     },
-    locale: "en-CA",
+    locale: "en-US",
     baseUrl: "md.jryliu.ca",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
